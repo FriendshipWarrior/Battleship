@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<ships>
+	<ship name="Carrier"><size>5</size><amount>1</amount></ship>
+	<ship name="Destoyer"><size>4</size><amount>2</amount></ship>
+	<ship name="Submarine"><size>3</size><amount>4</amount></ship>
+	<ship name="Patrol Boat"><size>2</size><amount>4</amount></ship>
+</ships>

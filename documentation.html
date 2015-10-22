@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Documentation</title>
+	<link rel ="stylesheet" href = "projectStyle.css">
+</head>
+<body>
+	
+	<h2>Requirements</h2>
+	<ul>
+		<li>Functioning game with A.I. and interactive board</li>
+		<li>User input button to restart or refresh the game</li>
+		<li>HTML5 audio clip of sonar sound</li>
+		<li>XML document loaded through the XMLHttpRequest</li>
+	</ul>
+	
+	<h2>Software Design</h2>
+	
+	<h3>Variables</h3>
+	<ul>
+		<li>Ships[], dead[], player[], computer[], playerships[], computerships[], shiptypes[].</li>
+		<li>rows (x), cols (y)</li>
+		<li>playerlives, computerlives, playflag</li>
+	</ul>
+	<h3>Functions</h3>
+	<ul>
+		<li>Model</li>
+		<li><strong>setupPlayer()</strong>-Places ships on the grid.</li>
+		<li><strong>onClick()</strong>-Handles the mouse clicking the board</li>
+		<li><strong>computerMove()</strong>-The computer's logic in playing against the player.</li>
+		<li>View</li>
+		<li><strong>init()</strong>-Starts all the scripts.</li>
+		<li><strong>gameBoard()</strong>-Starts game.</li>
+		<li><strong>imageLoad()</strong>-uploads all images in directory.</li>
+		<li><strong>showGrid()</strong>-Creates game board.</li>
+		<li><strong>setImage()</strong>-Changes image after clicked.</li>
+		<li><strong>sinkShip()</strong>-Changes the entire image of a ship if sunk.</li>
+		<li><strong>knowYourEnemy()</strong>-Displays computer's enemy ships when game is over.</li>
+		<li><strong>getShips()</strong>-XML files that displays ship types and their size.</li>
+	</ul>
+</body>
+</html>
